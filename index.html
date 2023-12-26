@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="apple-touch-icon" sizes="180x180" href="./public/favicon_io/apple-touch-icon.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="./public/favicon_io/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="./public/favicon_io/favicon-16x16.png" />
+        <link rel="manifest" href="./public/favicon_io/site.webmanifest" />
+        <!-- main css -->
+        <link rel="stylesheet" href="./css/style.min.css" />
+        <title>Modul-2 imtihon2</title>
+        <style>
+            html,
+            body {
+                position: relative;
+                height: 100%;
+            }
+    
+            body {
+                background: #eee;
+                font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+                font-size: 14px;
+                color: #000;
+                margin: 0;
+                padding: 0;
+            }
+    
+            swiper-container {
+                width: 100%;
+                height: 100%;
+            }
+    
+            swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                background: #000000;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+    
+            swiper-slide img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- -------- Header start  ------- -->
+        <header>
+
+
+            <div class="header_bg">
+                            
+                    <p>Summer Sale For All Swim Suits And Free Express Delivery - OFF 50%! <a href="#">ShopNow</a></p>
+                    <select name="select" id="select1" class="header_bg-english">
+                        <option value="english">English</option>
+                        <option value="UZ">UZ</option>
+                        <option value="RU">RU</option>
+                    </select>
+                    
+            
+
+            </div>
+
+
+            <div class="container">
+                <nav class="nav">
+                    <a href="" class="nav__logo">Exclusive</a>
+                    <ul class="nav__list">
+                        <li class="nav__list--item"><a href="#" class="nav__list--item-link aktive">Home</a></li>
+                        <li class="nav__list--item"><a href="#" class="nav__list--item-link">Contact</a></li>
+                        <li class="nav__list--item"><a href="#" class="nav__list--item-link">about</a></li>
+                        <li class="nav__list--item"><a href="#" class="nav__list--item-link">Sign Up</a></li>
+                    </ul>
+
+                    <ul class="inputslike">
+                    <div class="input">
+                        <input type="text" placeholder="What are you looking for?">
+                        <img src="./assets/images/Component 2.svg" alt="">
+                    </div>
+                    <div class="likelogouser">
+                        <img class="likelogouser" src="./assets/images/Wishlist.svg" alt="like">
+                        <img class="likelogouser" src="./assets/images/Cart1.svg" alt="korzinka">
+                        <img class="likelogouser" src="./assets/images/user.svg" alt="user">
+                    </div>
+                </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- -------- Header end  ------- -->
+
+        <main>
+            <!--------------------- sections one ---------------------->
+            <section id="section_one">
+                <div class="container">
+                    <div class="swiper">
+                        
+                        <div class="border_r">
+                            <ul class="swiper_texts">
+                               <li><a class="swiper_texts-text" href="#">Woman’s Fashion</a> <img src="./assets/images/DropDown.svg" alt=""></li>
+                               <li><a class="swiper_texts-text" href="#">Men’s Fashion </a><img src="./assets/images/DropDown.svg" alt=""></li>
+                               <li><a class="swiper_texts-text" href="#">Electronics</a></li>
+                               <li><a class="swiper_texts-text" href="#">Home & Lifestyle</a></li>
+                               <li><a class="swiper_texts-text" href="#">Medicine</a></li>
+                               <li><a class="swiper_texts-text" href="#">Sports & Outdoor</a></li>
+                               <li><a class="swiper_texts-text" href="#">Baby’s & Toys</a></li>
+                               <li><a class="swiper_texts-text" href="#">Groceries & Pets</a></li>
+                               <li><a class="swiper_texts-text" href="#">Health & Beauty</a></li>
+                            </ul>
+                        </div>
+
+                            <div class="swiper_slide">
+                                <swiper-container class="swiperslide" pagination="true">                                
+                                    <swiper-slide class="swiper_img"> <li class="wrap"> <a href="#">Shop Now</a> <img src="./assets/images/icons arrow-right.svg" alt=""> </li></swiper-slide>
+                                    <swiper-slide class="swiper_img"> <li class="wrap"> <a href="#">Shop Now</a> <img src="./assets/images/icons arrow-right.svg" alt=""> </li></swiper-slide>
+                                    <swiper-slide class="swiper_img"> <li class="wrap"><a href="#">Shop Now</a> <img src="./assets/images/icons arrow-right.svg" alt=""></li></swiper-slide>
+                                    <swiper-slide class="swiper_img"> <li class="wrap"> <a href="#">Shop Now</a> <img src="./assets/images/icons arrow-right.svg" alt=""></li></swiper-slide>
+                                </swiper-container>
+                            </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--------------------- sections one end ---------------------->
+
+
+            <!--------------------- sections two start ---------------------->
+            <section id="section_two">
+                <div class="container">
+                    <div class="wrapp">
+                        <div class="crimson">
+                        </div>
+                        <h1>Today’s</h1>
+                    </div>
+
+                    <div class="wraps">
+                        <h1 class="sales">Most Sales</h1>
+                        <div class="wrapps">
+                        <div>
+                            <p>Days</p>
+                            <h1>03 <span class="nuqta">:</span></h1>
+                            
+                        </div>
+
+                        <div>
+                            <p>Hours</p>
+                            <h1>23 <span class="nuqta">:</span></h1>
+                        </div>
+
+                        <div>
+                            <p>Minutes</p>
+                            <h1>19 <span class="nuqta">:</span></h1>
+                        </div>
+
+                        <div>
+                            <p>Seconds</p>
+                            <h1>56</h1>
+                        </div>
+                    </div>
+
+                    <div class="rightlefticon">
+                        <div>
+                        <img src="./assets/images/Fill With Left Arrowrighticon.png" alt="">
+                    </div>
+                    <div>
+                        <img src="./assets/images/Fill with Right Arrowlefticon.png" alt="">
+                    </div>
+                    </div>
+
+                    </div>
+
+
+
+
+                    <div class="cards">
+
+                        <div class="cards_card1">
+                            <div class="cards_card1-game">
+                                
+                                <div class="foiz">
+                                <p class="foyizskidka">-40%</p>
+                            </div>
+
+                                <div class="prosmotr">
+                                    <div>
+                                    <img src="./assets/images/Fill Heartyur.png" alt="logolike">
+                                    </div>
+
+                                    <div>
+                                    <img src="./assets/images/Fill Eyeglaza.png" alt="prosmotrlogo">
+                                    </div>
+                                </div>
+                            
+                                
+                                <img src="./assets/images/g92-2-500x500 1.png" alt="">
+
+                             <a href="#"><button class="btn">Add To Cart</button></a>
+                            </div>
+
+                            <div class="wrappscrd">
+                                <h3>HAVIT HV-G92 Gamepad</h3>
+                                
+                                <p>$120 <span class="skidka">$160</span></p>
+
+                                <div class="imgpwrap">
+                                    <img src="./assets/images/Five starzvezdas.png" alt="">
+                                    <p>(88)</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="cards_card1">
+                            <div class="cards_card1-game">
+                                
+                                <div class="foiz">
+                                <p class="foyizskidka">-35%</p>
+                            </div>
+
+                                <div class="prosmotr">
+                                    <div>
+                                    <img src="./assets/images/Fill Heartyur.png" alt="logolike">
+                                    </div>
+
+                                    <div>
+                                    <img src="./assets/images/Fill Eyeglaza.png" alt="prosmotrlogo">
+                                    </div>
+                                </div>
+                            
+                                
+                                <img src="./assets/images/ak-900-01-500x500 1klaviatura (1).png" alt="">
+
+                             <a href="#"><button class="btn">Add To Cart</button></a>
+                            </div>
+
+                            <div class="wrappscrd">
+                                <h3>HAVIT HV-G92 Gamepad</h3>
+                                
+                                <p>$960 <span class="skidka">$1160</span></p>
+
+                                <div class="imgpwrap">
+                                    <img src="./assets/images/Four Starzvez4.png" alt="">
+                                    <p>(75)</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="cards_card1">
+                            <div class="cards_card1-game">
+                                
+                                <div class="foiz">
+                                <p class="foyizskidka">-30%</p>
+                            </div>
+
+                                <div class="prosmotr">
+                                    <div>
+                                    <img src="./assets/images/Fill Heartyur.png" alt="logolike">
+                                    </div>
+
+                                    <div>
+                                    <img src="./assets/images/Fill Eyeglaza.png" alt="prosmotrlogo">
+                                    </div>
+                                </div>
+                            
+                                
+                                <img src="./assets/images/g27cq4-500x500 1ekran.png" alt="">
+
+                             <a href="#"><button class="btn">Add To Cart</button></a>
+                            </div>
+
+                            <div class="wrappscrd">
+                                <h3>HAVIT HV-G92 Gamepad</h3>
+                                
+                                <p>$370 <span class="skidka">$400</span></p>
+
+                                <div class="imgpwrap">
+                                    <img src="./assets/images/Five starzvezdas.png" alt="">
+                                    <p>(99)</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="cards_card1">
+                            <div class="cards_card1-game">
+                                
+                                <div class="foiz">
+                                <p class="foyizskidka">-25%</p>
+                            </div>
+
+                                <div class="prosmotr">
+                                    <div>
+                                    <img src="./assets/images/Fill Heartyur.png" alt="logolike">
+                                    </div>
+
+                                    <div>
+                                    <img src="./assets/images/Fill Eyeglaza.png" alt="prosmotrlogo">
+                                    </div>
+                                </div>
+                            
+                                
+                                <img src="/assets/images/sam-moghadam-khamseh-kvmdsTrGOBM-unsplash 1.png" alt="">
+
+                             <a href="#"><button class="btn">Add To Cart</button></a>
+                            </div>
+
+                            <div class="wrappscrd">
+                                <h3>HAVIT HV-G92 Gamepad</h3>
+                                
+                                <p>$375 <span class="skidka">$400</span></p>
+
+                                <div class="imgpwrap">
+                                    <img src="./assets/images/Four Half Starzvez4.5.png" alt="">
+                                    <p>(99)</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="cards_card1">
+                            <div class="cards_card1-game">
+                                
+                                <div class="foiz">
+                                <p class="foyizskidka">-20%</p>
+                            </div>
+
+                                <div class="prosmotr">
+                                    <div>
+                                    <img src="./assets/images/Fill Heartyur.png" alt="logolike">
+                                    </div>
+
+                                    <div>
+                                    <img src="./assets/images/Fill Eyeglaza.png" alt="prosmotrlogo">
+                                    </div>
+                                </div>
+                            
+                                
+                                <img src="./assets/images/sam-moghadam-khamseh-kvmdsTrGOBM-unsplash 1.png" alt="">
+
+                             <a href="#"><button class="btn">Add To Cart</button></a>
+                            </div>
+
+                            <div class="wrappscrd">
+                                <h3>HAVIT HV-G92 Gamepad</h3>
+                                
+                                <p>$375 <span class="skidka">$400</span></p>
+
+                                <div class="imgpwrap">
+                                    <img src="./assets/images/Five starzvezdas.png" alt="">
+                                    <p>(99)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="sec2btn">View All Products</button>
+                    <div class="bordertwo_bt">
+                </div>
+                </div>
+            </section>
+
+            <!--------------------- sections two end ---------------------->
+
+
+            <!--------------------- sections three start ---------------------->
+            <section id="section_three">
+                <div class="container">
+
+                    
+                    
+                    <div class="three_wrap">
+                        <div class="crimson">
+                        </div>
+                        <h1>Categories</h1>
+                    </div>
+
+                    <div class="texticon">
+                        <h1>Browse By Category</h1>
+
+
+                    <div class="sec3rili">
+                        <div>
+                            <img src="./assets/images/Fill With Left Arrowrighticon.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./assets/images/Fill with Right Arrowlefticon.png" alt="">
+                        </div>
+                    </div>
+                    </div>
+
+
+                    <div class="minicards">
+
+                        <div class="minicard">
+                            <img src="./assets/images/Category-CellPhone.svg" alt="phone">
+                            <p>Phones</p>
+                        </div>
+
+                        <div class="minicard">
+                            <img src="./assets/images/Category-Computer.svg" alt="phone">
+                            <p>Computers</p>
+                        </div>
+
+                        <div class="minicard">
+                            <img src="./assets/images/Category-SmartWatchiwatch.svg" alt="phone">
+                            <p>SmartWatch</p>
+                        </div>
+
+                        <div class="minicard">
+                            <img src="./assets/images/Category-Camera.svg" alt="phone">
+                            <p>Camera</p>
+                        </div>
+
+                        <div class="minicard">
+                            <img src="./assets/images/Category-Headphone.svg" alt="phone">
+                            <p>HeadPhones</p>
+                        </div>
+
+                        <div class="minicard">
+                            <img src="./assets/images/Category-Gamepad.svg" alt="phone">
+                            <p>Gaming</p>
+                        </div>
+
+
+                        <div class="minicard">
+                            <img src="./assets/images/Category-Gamepad.svg" alt="phone">
+                            <p>Phones</p>
+                        </div>
+
+
+                        <div class="minicard">
+                            <img src="./assets/images/Category-Gamepad.svg" alt="phone">
+                            <p>Phones</p>
+                        </div>
+                    </div>
+                    <div class="border_bt">
+                </div>
+                </div>
+            </section>
+
+            <!--------------------- sections three end ---------------------->
+
+            <!--------------------- sections fourth start ---------------------->
+            <section id="section_fourth">
+                <div class="container">
+                    <div class="fourth_wrap">
+                            <div class="crimson">
+                            </div>
+                            <h1>This Month</h1>
+                    </div>
+
+                    <div class="textbtn">
+                        <h1>Best Selling Products</h1>
+                        <button>View All</button>
+                    </div>
+
+
+
+                    
+                    <div class="cards">
+
+                        
+                        <div class="cards_card1">
+                            <div class="cards_card1-game">
+                                <div class="prosmotr">
+                                    <div>
+                                    <img src="./assets/images/Fill Heartyur.png" alt="logolike">
+                                    </div>
+
+                                    <div>
+                                    <img src="./assets/images/Fill Eyeglaza.png" alt="prosmotrlogo">
+                                    </div>
+                                </div>
+                            
+                                
+                                <img src="./assets/images/672462_ZAH9D_5626_002_100_0000_Light-The-North-Face-x-Gucci-coat 1.png" alt="">
+                            </div>
+                            <div class="wrappscrd">
+                                <h3>The north coat</h3>
+                                
+                                <p>$260 <span class="skidka">$360</span></p>
+
+                                <div class="imgpwrap">
+                                    <img src="./assets/images/Five starzvezdas.png" alt="">
+                                    <p>(65)</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        
+                        <div class="cards_card1">
+                            <div class="cards_card1-game">
+                                <div class="prosmotr">
+                                    <div>
+                                    <img src="./assets/images/Fill Heartyur.png" alt="logolike">
+                                    </div>
+
+                                    <div>
+                                    <img src="./assets/images/Fill Eyeglaza.png" alt="prosmotrlogo">
+                                    </div>
+                                </div>
+                    
+                                <img src="./assets/images/547953_9C2ST_8746_001_082_0000_Light-Gucci-Savoy-medium-duffle-bag 1.png" alt="">
+                            </div>
+                            <div class="wrappscrd">
+                                <h3>Gucci duffle bag</h3>
+                                
+                                <p>$960 <span class="skidka">$1160</span></p>
+
+                                <div class="imgpwrap">
+                                    <img src="./assets/images/Four Half Starzvez4.5.png" alt="">
+                                    <p>(65)</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        
+                        <div class="cards_card1">
+                            <div class="cards_card1-game">
+
+                                <div class="prosmotr">
+                                    <div>
+                                    <img src="./assets/images/Fill Heartyur.png" alt="logolike">
+                                    </div>
+
+                                    <div>
+                                    <img src="./assets/images/Fill Eyeglaza.png" alt="prosmotrlogo">
+                                    </div>
+                                </div>
+                            
+                                
+                                <img src="./assets/images/gammaxx-l240-argb-1-500x500 1.png" alt="">
+
+                             
+                            </div>
+
+                            <div class="wrappscrd">
+                                <h3>RGB liquid CPU Cooler</h3>
+                                
+                                <p>$160 <span class="skidka">$170</span></p>
+
+                                <div class="imgpwrap">
+                                    <img src="./assets/images/Four Half Starzvez4.5.png" alt="">
+                                    <p>(65)</p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        
+                        <div class="cards_card1">
+                            <div class="cards_card1-game">
+                            
+
+                                <div class="prosmotr">
+                                    <div>
+                                    <img src="./assets/images/Fill Heartyur.png" alt="logolike">
+                                    </div>
+
+                                    <div>
+                                    <img src="./assets/images/Fill Eyeglaza.png" alt="prosmotrlogo">
+                                    </div>
+                                </div>
+                            
+                                
+                                <img src="./assets/images/sam-moghadam-khamseh-L_7MQsHl_aU-unsplash 1.png" alt="">
+
+                             
+                            </div>
+
+                            <div class="wrappscrd">
+                                <h3>Small BookSelf</h3>
+                                
+                                <p>$360</p>
+
+                                <div class="imgpwrap">
+                                    <img src="./assets/images/Five starzvezdas.png" alt="">
+                                    <p>(65)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="music">
+                        <ul class="music_wrap">
+                            <div class="music_texts">
+                                <p>Categories</p>
+                                <h1>Enhance Your Music Experience</h1>
+                                <div class="music_immages">
+                                    <img src="./assets/images/Flash Sell Timerhours.svg" alt="hours">
+                                    <img src="./assets/images/Flash Sell Timerdays.svg" alt="days">
+                                    <img src="./assets/images/Flash Sell Timerminutes.svg" alt="minutes">
+                                    <img src="./assets/images/Flash Sell Timerseconds.svg" alt="seconds">
+                                </div>
+
+                                <button>Buy Now!</button>
+                            </div>
+
+                            <div class="bgmg"></div>
+                            <div class="magnitafon">
+                                <img src="./assets/images/JBL_BOOMBOX_2_HERO_020_x1 (1) 1magnitafon.png" alt="magnitafon">
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+             <!--------------------- sections fourth end ---------------------->
+
+              <!--------------------- sections fifth start ---------------------->
+
+              <section id="section_fifth">
+                <div class="container">
+
+                    <div class="three_wrap">
+                        <div class="crimson">
+                        </div>
+                        <h1>Our Products</h1>
+                    </div>
+
+                    <div class="texticon">
+                        <h1>Explore Our Products</h1>
+
+
+                    <div class="sec3rili">
+                        <div>
+                            <img src="./assets/images/Fill With Left Arrowrighticon.png" alt="">
+                        </div>
+                        <div>
+                            <img src="./assets/images/Fill with Right Arrowlefticon.png" alt="">
+                        </div>
+                    </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+
+                </div>
+              </section>
+
+
+            
+
+
+
+
+
+
+
+            
+        </main>
+
+
+
+        <!-- <footer>
+            <div class="container">
+                <p>Site footer</p>
+            </div>
+        </footer>
+         -->
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+</html>

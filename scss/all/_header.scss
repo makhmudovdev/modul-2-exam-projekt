@@ -1,0 +1,118 @@
+header {
+    width: 100%;
+    border-bottom: 2px solid silver;
+
+     .header_bg{
+        background-color: black;
+        height: 48px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+        gap: 50px;
+
+        &-english{
+            margin-left: 210px;
+            text-align: center;
+            display: flex;
+            font-family: Poppins;
+            background-color: black;
+            border: none;
+            color: white;
+        }
+        
+        
+        
+        & p{
+            padding: 12px 0px 12px 0px;
+            color: white;
+            margin-left: 290px;
+            font-family: Poppins;
+
+            & a{
+                color: white;
+                font-weight: bold;
+
+            
+            }
+        }
+    }
+
+    // example
+
+    .nav {
+        display: flex;
+        height: 70px;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        &__logo {
+            font-style: 24px;
+            cursor: pointer;
+            color: var(--Text2, #000);
+            font-family: Inter;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 24px;
+            letter-spacing: 0.72px;
+            text-decoration: none;
+        }
+
+        &__list {
+            display: flex;
+            gap: 48px;
+            list-style-type: none;
+            margin-left: 75px;
+            .aktive{
+                border-bottom: 2px solid silver;
+            }
+
+            &--item {
+                
+
+                &-link {
+                    text-decoration: none;
+                    color: var(--Text2, #000);
+                    text-align: center;
+                    font-family: Poppins;
+                    font-size: 16px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 24px;
+                    
+                   
+                    &:hover{
+                        color:red;
+                    }
+                }
+            }
+        }
+
+        .inputslike{
+            display: flex;
+            gap: 24px;
+            margin-right: 20px;
+        }
+
+        .input{
+            background-color: #F5F5F5;
+            padding: 7px 12px 7px 12px;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            display: flex;
+
+            input{
+                border: none;
+                background-color: #F5F5F5;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        .likelogouser{
+            display: flex;
+            gap: 20px;
+        }
+    }
+}
