@@ -1,7 +1,7 @@
 footer{
     width: 100%;
     background-color: black;
-    height: 500px;
+    height: 480px;
     margin-top: 32px;
     padding-top: 80px;
     
@@ -208,5 +208,28 @@ footer{
             margin-top: 35px;
             
         }
+    }
+
+    .footerend{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 16px;
+        gap: 6px;
+
+        p{
+            color: var(--Primary, #FFF);
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px; 
+        }
+    }
+    
+    #foterborder{
+        border-top: 1px solid white;
+        opacity: 0.3;
+        margin-top: 60px;
     }
 }
