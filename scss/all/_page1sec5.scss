@@ -45,4 +45,168 @@
         
         }
       }
+      
+
+      .cards {
+        display: flex;
+        gap: 45px;
+        overflow-y: hidden;
+        margin-top: 60px;
+    
+        &_card1 {
+          width: 270px;
+          height: 350px;
+          border-radius: 10px;
+          position: relative;
+    
+          .wrappscrd {
+            & h3 {
+              color: #000;
+              font-family: Poppins;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 24px;
+              margin-top: 16px;
+            }
+
+
+            .radioslind{
+                display: flex;
+                gap: 8px;
+                margin-top: 8px;
+            }
+    
+            & p {
+              color: var(--Secondary-2, #db4444);
+              font-family: Poppins;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 24px;
+    
+              .skidka {
+                margin-left: 12px;
+                text-decoration: line-through;
+              }
+            }
+    
+            .imgpwrap {
+              display: flex;
+              gap: 8px;
+              align-items: center;
+            }
+          }
+    
+          &-game {
+            background-color: #f5f5f5;
+            width: 270px;
+            height: 250px;
+            position: relative;
+            border-radius: 9px 9px 0px 0px;
+    
+            &:hover {
+              .btn {
+                display: block;
+                cursor: pointer;
+              }
+            }
+    
+            .btn {
+              position: absolute;
+              width: 270px;
+              height: 41px;
+              background-color: black;
+              color: white;
+              right: 0px;
+              bottom: 0px;
+              border: none;
+              display: none;
+              color: #fff;
+              font-family: Poppins;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 500;
+              line-height: 24px;
+            }
+    
+            img {
+              margin-left: 50px;
+              margin-top: -40px;
+            }
+
+
+            .foiz {
+                padding: 10px;
+              }
+      
+              .foyizskidka {
+                background-color: #00FF66;
+                padding: 4px 12px;
+                width: 55px;
+                height: 26px;
+                border-radius: 4px;
+                color: white;
+                font-weight: 400;
+                font-family: Poppins;
+                font-size: 12px;
+              }
+
+              .foyiNew{
+                background-color: transparent;
+                color: #f5f5f5;
+                padding: 4px 12px;
+              }
+
+    
+            .prosmotr {
+              display: block;
+              margin-left: 185px;
+              margin-top: px;
+              line-height: 40px;
+              margin-top: -25px;
+              margin-left: 175px;
+              
+    
+              .pult {
+                margin-left: 100px;
+                background-color: #db4444;
+              }
+            }
+          }
+        }
+      }
+
+      .cardss{
+        overflow-y: hidden;
+      }
+
+      .sec2btn{
+        display: inline-flex;
+        padding: 16px 48px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 4px;
+        background: var(--Button2, #DB4444);
+        color: var(--Text, #FAFAFA);
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        border: 2px solid transparent;
+        margin-left: 480px;
+        margin-top: 75px;
+
+    
+        &:hover{
+            background-color: transparent;
+            color: black;
+            border: 2px solid rgba(0, 0, 0, 0.50);
+        }
+      }
+
+
+
 }

@@ -1,6 +1,10 @@
 header {
+    position: fixed;
+    z-index: 33;
+    top: 0;
     width: 100%;
     border-bottom: 2px solid silver;
+    backdrop-filter: blur(25px);
 
      .header_bg{
         background-color: black;
