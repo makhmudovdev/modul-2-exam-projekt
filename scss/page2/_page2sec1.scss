@@ -72,12 +72,16 @@
                     background: var(--Button2, #DB4444);
                     border: 2px solid transparent;
                     margin-top: 40px;
+                    
 
                     &:hover{
                         background-color: transparent;
                         color: #000;
                         border: 2px solid rgba(0, 0, 0, 0.50);                        ;
                     }
+                }
+                & a{
+                    text-decoration: none;
                 }
             }
         }

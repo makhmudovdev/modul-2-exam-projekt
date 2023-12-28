@@ -402,6 +402,9 @@ header .nav__list--item-link {
   line-height: 24px;
 }
 header .nav__list--item-link:hover {
+  border-bottom: 2px solid silver;
+}
+header .nav__list--item-link:hover {
   color: red;
 }
 header .nav .inputslike {
@@ -1544,6 +1547,9 @@ footer #foterborder {
   color: #000;
   border: 2px solid rgba(0, 0, 0, 0.5);
 }
+#page2sec1 .page2_wrap .content2wrap .btnc1 a {
+  text-decoration: none;
+}
 #page2sec1 .page2_wrap .btnc2 button {
   padding: 16px 107px;
   align-items: flex-start;
@@ -1596,6 +1602,9 @@ footer #foterborder {
   align-items: center;
   gap: 90px;
 }
+#page2sec1 .btnpg3 a {
+  text-decoration: none;
+}
 #page2sec1 .btnpg3 button {
   display: flex;
   padding: 16px 48px;
@@ -1624,4 +1633,607 @@ footer #foterborder {
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
+}
+
+#section_fifth {
+  margin-top: 240px;
+}
+#section_fifth .three_wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#section_fifth .three_wrap button {
+  display: flex;
+  padding: 16px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: var(--Text2, #000);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  cursor: pointer;
+  margin-left: 920px;
+}
+#section_fifth .three_wrap .crimson {
+  width: 20px;
+  height: 40px;
+  background-color: #db4444;
+  border-radius: 5px;
+}
+#section_fifth .three_wrap h1 {
+  color: var(--Secondary-2, #db4444);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+#section_fifth .texticon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#section_fifth .texticon h1 {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+#section_fifth .texticon .sec3rili {
+  display: flex;
+  gap: 10px;
+}
+#section_fifth .texticon .sec3rili button {
+  display: flex;
+  padding: 16px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: var(--Text2, #000);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  cursor: pointer;
+}
+#section_fifth .cards {
+  display: flex;
+  gap: 45px;
+  overflow-y: hidden;
+  margin-top: 60px;
+}
+#section_fifth .cards_card1 {
+  width: 270px;
+  height: 350px;
+  border-radius: 10px;
+  position: relative;
+}
+#section_fifth .cards_card1 .wrappscrd h3 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 16px;
+}
+#section_fifth .cards_card1 .wrappscrd .radioslind {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+#section_fifth .cards_card1 .wrappscrd p {
+  color: var(--Secondary-2, #db4444);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+#section_fifth .cards_card1 .wrappscrd p .skidka {
+  margin-left: 12px;
+  text-decoration: line-through;
+}
+#section_fifth .cards_card1 .wrappscrd .imgpwrap {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+#section_fifth .cards_card1-game {
+  background-color: #f5f5f5;
+  width: 270px;
+  height: 250px;
+  position: relative;
+  border-radius: 9px 9px 0px 0px;
+}
+#section_fifth .cards_card1-game:hover .btn {
+  display: block;
+  cursor: pointer;
+}
+#section_fifth .cards_card1-game .btn {
+  position: absolute;
+  width: 270px;
+  height: 41px;
+  background-color: black;
+  color: white;
+  right: 0px;
+  bottom: 0px;
+  border: none;
+  display: block;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+#section_fifth .cards_card1-game img {
+  margin-left: 50px;
+  margin-top: -25px;
+}
+#section_fifth .cards_card1-game .foiz {
+  padding: 10px;
+}
+#section_fifth .cards_card1-game .foizskidka {
+  background-color: #DB4444;
+  padding: 4px 12px;
+  width: 55px;
+  height: 26px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 400;
+  font-family: Poppins;
+  font-size: 12px;
+}
+#section_fifth .cards_card1-game .foyiNew {
+  background-color: transparent;
+  color: #f5f5f5;
+  padding: 4px 12px;
+}
+#section_fifth .cards_card1-game .prosmotr {
+  display: block;
+  margin-left: 185px;
+  margin-top: px;
+  line-height: 40px;
+  margin-top: -25px;
+  margin-left: 175px;
+}
+#section_fifth .cards_card1-game .prosmotr .pult {
+  margin-left: 100px;
+  background-color: #db4444;
+}
+#section_fifth .cardss {
+  overflow-y: hidden;
+}
+#section_fifth .sec2btn {
+  display: inline-flex;
+  padding: 16px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--Button2, #DB4444);
+  color: var(--Text, #FAFAFA);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  border: 2px solid transparent;
+  margin-left: 480px;
+  margin-top: 75px;
+}
+#section_fifth .sec2btn:hover {
+  background-color: transparent;
+  color: black;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+#section_fifth {
+  margin-top: 240px;
+}
+#section_fifth .three_wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#section_fifth .three_wrap .crimson {
+  width: 20px;
+  height: 40px;
+  background-color: #db4444;
+  border-radius: 5px;
+}
+#section_fifth .three_wrap h1 {
+  color: var(--Secondary-2, #db4444);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+#section_fifth .texticon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#section_fifth .texticon h1 {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+#section_fifth .texticon .sec3rili {
+  display: flex;
+  gap: 10px;
+}
+#section_fifth .texticon .sec3rili button {
+  display: flex;
+  padding: 16px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: var(--Text2, #000);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  cursor: pointer;
+}
+#section_fifth .cards {
+  display: flex;
+  gap: 45px;
+  overflow-y: hidden;
+  margin-top: 60px;
+}
+#section_fifth .cards_card1 {
+  width: 270px;
+  height: 350px;
+  border-radius: 10px;
+  position: relative;
+}
+#section_fifth .cards_card1 .wrappscrd h3 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 16px;
+}
+#section_fifth .cards_card1 .wrappscrd .radioslind {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+#section_fifth .cards_card1 .wrappscrd p {
+  color: var(--Secondary-2, #db4444);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+#section_fifth .cards_card1 .wrappscrd p .skidka {
+  margin-left: 12px;
+  text-decoration: line-through;
+}
+#section_fifth .cards_card1 .wrappscrd .imgpwrap {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+#section_fifth .cards_card1-game {
+  background-color: #f5f5f5;
+  width: 270px;
+  height: 250px;
+  position: relative;
+  border-radius: 9px 9px 0px 0px;
+}
+#section_fifth .cards_card1-game:hover .btn {
+  display: block;
+  cursor: pointer;
+}
+#section_fifth .cards_card1-game .btn {
+  position: absolute;
+  width: 270px;
+  height: 41px;
+  background-color: black;
+  color: white;
+  right: 0px;
+  bottom: 0px;
+  border: none;
+  display: block;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+#section_fifth .cards_card1-game img {
+  margin-left: 50px;
+  margin-top: -25px;
+}
+#section_fifth .cards_card1-game .foiz {
+  padding: 10px;
+}
+#section_fifth .cards_card1-game .foizskidka {
+  background-color: #DB4444;
+  padding: 4px 12px;
+  width: 55px;
+  height: 26px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 400;
+  font-family: Poppins;
+  font-size: 12px;
+}
+#section_fifth .cards_card1-game .foyiNew {
+  background-color: transparent;
+  color: #f5f5f5;
+  padding: 4px 12px;
+}
+#section_fifth .cards_card1-game .prosmotr {
+  display: block;
+  margin-left: 185px;
+  margin-top: px;
+  line-height: 40px;
+  margin-top: -25px;
+  margin-left: 175px;
+}
+#section_fifth .cards_card1-game .prosmotr .pult {
+  margin-left: 100px;
+  background-color: #db4444;
+}
+#section_fifth .cardss {
+  overflow-y: hidden;
+}
+#section_fifth .sec2btn {
+  display: inline-flex;
+  padding: 16px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--Button2, #DB4444);
+  color: var(--Text, #FAFAFA);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  border: 2px solid transparent;
+  margin-left: 480px;
+  margin-top: 75px;
+}
+#section_fifth .sec2btn:hover {
+  background-color: transparent;
+  color: black;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+#page6sec1 {
+  margin-top: 225px;
+}
+#page6sec1 .homecart {
+  display: flex;
+  gap: 8px;
+  cursor: pointer;
+}
+#page6sec1 .homecart a {
+  color: var(--Text2, #000);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  opacity: 0.5;
+  list-style-type: none;
+  text-decoration: none;
+}
+#page6sec1 .homecart p {
+  color: var(--Text2, #000);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+#page6sec1 .page6sec1wrap .sec1wrap_text {
+  display: flex;
+  gap: 270px;
+  display: flex;
+  width: 1200px;
+  height: 72px;
+  padding: 24px 39px 24px 40px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  background: var(--Primary, #FFF);
+  box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+  margin-top: 80px;
+}
+#page6sec1 .page6sec1wrap .sec1wrap_text p:nth-child(2) {
+  margin-left: 110px;
+}
+#page6sec1 .page6sec1wrap .sec1wrap_text1 {
+  margin-top: 40px;
+  gap: 245px;
+  width: 1200px;
+  height: 72px;
+  padding: 24px 39px 24px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
+  background: var(--Primary, #FFF);
+  box-shadow: 0px 1px 13px 0px rgba(0, 0, 0, 0.05);
+  margin-bottom: 40px;
+}
+#page6sec1 .page6sec1wrap .sec1wrap_text1 p {
+  color: var(--Text2, #000);
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  position: relative;
+}
+#page6sec1 .page6sec1wrap .sec1wrap_text1 p svg {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+}
+#page6sec1 .page6sec1wrap .sec1wrap_text1 p input {
+  display: flex;
+  width: 72px;
+  height: 44px;
+  padding: 6px 12px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1.5px solid rgba(0, 0, 0, 0.4);
+}
+#page6sec1 .page6sec1wrap .pag6btnwrap {
+  display: flex;
+  justify-content: space-between;
+}
+#page6sec1 .page6sec1wrap .pag6btnwrap button {
+  display: flex;
+  padding: 16px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  color: var(--Text2, #000);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+#page6sec1 .page6sec1wrap .pag6btnwrap .bt2 {
+  margin-right: 20px;
+}
+
+#page6sec2 {
+  margin-top: 80px;
+  padding-bottom: 120px;
+}
+#page6sec2 .inputs_cards {
+  display: flex;
+  gap: 187px;
+}
+#page6sec2 .inputs_cards .inpbtn {
+  display: flex;
+  gap: 30px;
+}
+#page6sec2 .inputs_cards .inpbtn input {
+  width: 300px;
+  height: 56px;
+  display: flex;
+  padding: 16px 164px 16px 24px;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid #000;
+}
+#page6sec2 .inputs_cards .inpbtn button {
+  display: flex;
+  padding: 16px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--Button2, #DB4444);
+  border: 2px solid transparent;
+  color: var(--Text, #FAFAFA);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+#page6sec2 .inputs_cards .inpbtn button:hover {
+  background-color: transparent;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  color: #000;
+}
+#page6sec2 .inputs_cards .cheekwrap {
+  width: 470px;
+  height: 324px;
+  border-radius: 4px;
+  border: 1.5px solid #000;
+  padding: 24px 32px;
+}
+#page6sec2 .inputs_cards .cheekwrap h1 {
+  color: var(--Text2, #000);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+#page6sec2 .inputs_cards .cheekwrap p {
+  color: var(--Text2, #000);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  border-bottom: 2px solid silver;
+  padding-bottom: 8px;
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#page6sec2 .inputs_cards .cheekwrap .pend {
+  border-bottom: none;
+  justify-content: space-between;
+}
+#page6sec2 .inputs_cards .cheekwrap button {
+  display: inline-flex;
+  padding: 16px 48px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 4px;
+  background: var(--Button2, #DB4444);
+  color: var(--Text, #FAFAFA);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  border: 2px solid transparent;
+  margin-left: 70px;
+  margin-top: 16px;
+}
+#page6sec2 .inputs_cards .cheekwrap button:hover {
+  background-color: transparent;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  color: #000;
 }/*# sourceMappingURL=style.css.map */
