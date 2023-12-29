@@ -1485,11 +1485,12 @@ footer #foterborder {
 }
 #page2sec1 .page2_wrap {
   display: flex;
-  gap: 140px;
+  gap: 160px;
 }
 #page2sec1 .page2_wrap .content1wrap {
   width: 805px;
   height: 781px;
+  margin-left: -150px;
 }
 #page2sec1 .page2_wrap .content2wrap h1 {
   color: var(--Text2, #000);
@@ -2031,6 +2032,429 @@ footer #foterborder {
   border: 2px solid rgba(0, 0, 0, 0.5);
 }
 
+#page5sec2 {
+  margin-top: 225px;
+  margin-bottom: 150px;
+}
+#page5sec2 .page5sec2_texts {
+  margin-bottom: 80px;
+}
+#page5sec2 .page5sec2_texts .account {
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  opacity: 0.5;
+  color: #000;
+}
+#page5sec2 .page5sec2_texts .gaming {
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  opacity: 0.5;
+  color: #000;
+}
+#page5sec2 .page5sec2_texts .havic {
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  color: #000;
+}
+#page5sec2 .Gamepad-inrto {
+  display: grid;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  row-gap: 10px;
+  grid-template-areas: "a f e" "b f e" "c f e" "d f e";
+}
+#page5sec2 .Gamepad-inrto__game1 {
+  background: #f5f5f5;
+  grid-area: a;
+  width: 170px;
+  height: 138px;
+  padding: 20px;
+}
+#page5sec2 .Gamepad-inrto__game2 {
+  background: #f5f5f5;
+  grid-area: b;
+  width: 170px;
+  height: 138px;
+  padding: 20px;
+}
+#page5sec2 .Gamepad-inrto__game3 {
+  background: #f5f5f5;
+  grid-area: c;
+  width: 170px;
+  height: 138px;
+  padding: 20px;
+}
+#page5sec2 .Gamepad-inrto__game4 {
+  background: #f5f5f5;
+  grid-area: d;
+  width: 170px;
+  height: 138px;
+  padding: 20px;
+}
+#page5sec2 .Gamepad-inrto__swiper5 {
+  grid-area: f;
+  width: 500px;
+  height: 596px;
+  background: #f5f5f5;
+  margin-top: 0px;
+}
+#page5sec2 .Gamepad-inrto__swiper5 .swiper {
+  width: 100%;
+  height: 100%;
+  background: #f5f5f5;
+}
+#page5sec2 .Gamepad-inrto__swiper5 .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f5f5;
+}
+#page5sec2 .Gamepad-inrto__swiper5 .swiper-slide img {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#page5sec2 .Gamepad-inrto__infomacion {
+  grid-area: e;
+  width: 400px;
+  height: 600px;
+  margin-top: -15px;
+}
+#page5sec2 .Gamepad-inrto__infomacion h1 {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.72px;
+}
+#page5sec2 .Gamepad-inrto__infomacion .zvez_reviews {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#page5sec2 .Gamepad-inrto__infomacion .zvez_reviews img {
+  margin-bottom: 15px;
+}
+#page5sec2 .Gamepad-inrto__infomacion .zvez_reviews p {
+  margin-left: 0;
+  border-right: 1px solid #000;
+  padding: 5px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  opacity: 0.5;
+}
+#page5sec2 .Gamepad-inrto__infomacion .zvez_reviews .valyuta_text {
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  color: #0f6;
+  border: none;
+}
+#page5sec2 .Gamepad-inrto__infomacion h3 {
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.72px;
+  margin-bottom: 5px;
+  margin-top: 13px;
+}
+#page5sec2 .Gamepad-inrto__infomacion p {
+  width: 373px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+  margin-bottom: 10px;
+}
+#page5sec2 .Gamepad-inrto__infomacion .product_color {
+  display: flex;
+  justify-content: start;
+}
+#page5sec2 .Gamepad-inrto__infomacion .product_color p {
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.6px;
+}
+#page5sec2 .Gamepad-inrto__infomacion .product_color .product_color_radio {
+  display: flex;
+  margin-right: 250px;
+  gap: 10px;
+  cursor: pointer;
+}
+#page5sec2 .Gamepad-inrto__infomacion .size_btn {
+  display: flex;
+  align-items: center;
+  margin-top: 14px;
+}
+#page5sec2 .Gamepad-inrto__infomacion .size_btn p {
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.6px;
+}
+#page5sec2 .Gamepad-inrto__infomacion .size_btn .product_size {
+  display: flex;
+  gap: 16px;
+  margin-right: 100px;
+}
+#page5sec2 .Gamepad-inrto__infomacion .size_btn .product_size button {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  padding: 6px 7px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background: #fff;
+}
+#page5sec2 .Gamepad-inrto__infomacion .size_btn .product_size button:hover {
+  background: #db4444;
+  color: #fff;
+  border: none;
+}
+#page5sec2 .Gamepad-inrto__infomacion .the_number {
+  display: flex;
+  margin-top: 40px;
+  gap: 18px;
+  margin-bottom: 40px;
+}
+#page5sec2 .Gamepad-inrto__infomacion .the_number .shop_btn {
+  width: 165px;
+  height: 44px;
+  color: #fff;
+  background: #db4444;
+  border: none;
+  border-radius: 4px;
+}
+#page5sec2 .Gamepad-inrto__infomacion .the_number .shop_btn:hover {
+  background: #e07575;
+}
+#page5sec2 .Gamepad-inrto__infomacion .the_number .likebtn {
+  width: 44px;
+  height: 44px;
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background: #fff;
+}
+#page5sec2 .Gamepad-inrto__infomacion .the_number .purchase_number {
+  display: flex;
+}
+#page5sec2 .Gamepad-inrto__infomacion .the_number .purchase_number button {
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background: #fff;
+  border-radius: 4px;
+}
+#page5sec2 .Gamepad-inrto__infomacion .the_number .purchase_number button:nth-child(1) {
+  width: 40px;
+  height: 44px;
+  border-right: 1px solid rgba(0, 0, 0, 0.5);
+}
+#page5sec2 .Gamepad-inrto__infomacion .the_number .purchase_number button:nth-child(1):hover {
+  color: #fff;
+  background: #db4444;
+}
+#page5sec2 .Gamepad-inrto__infomacion .the_number .purchase_number button:nth-child(2) {
+  width: 80px;
+  height: 44px;
+}
+#page5sec2 .Gamepad-inrto__infomacion .the_number .purchase_number button:nth-child(3) {
+  width: 41px;
+  height: 44px;
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+}
+#page5sec2 .Gamepad-inrto__infomacion .the_number .purchase_number button:nth-child(3):hover {
+  color: #fff;
+  background: #db4444;
+}
+#page5sec2 .Gamepad-inrto__infomacion .Free_Delivery {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+  height: 80px;
+  padding: 20px;
+  gap: 10px;
+}
+#page5sec2 .Gamepad-inrto__infomacion .Free_Delivery h4 {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 10px;
+}
+#page5sec2 .Gamepad-inrto__infomacion .Free_Delivery a {
+  color: #000;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+#page5sec2 .Gamepad-inrto__infomacion .Free_Delivery p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+}
+#page5sec2 .Gamepad-inrto__infomacion .Return_Delivery {
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  height: 80px;
+  padding: 20px;
+  gap: 10px;
+}
+
+#page5sec2 .wrapp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+#page5sec2 .wrapp .crimson {
+  width: 20px;
+  height: 40px;
+  background-color: #db4444;
+  border-radius: 5px;
+}
+#page5sec2 .wrapp h1 {
+  color: var(--Secondary-2, #db4444);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+#page5sec2 .cards {
+  display: flex;
+  gap: 42px;
+  margin-top: 60px;
+  margin-bottom: 140px;
+}
+#page5sec2 .cards_card1 {
+  width: 270px;
+  height: 350px;
+  border-radius: 10px;
+  position: relative;
+}
+#page5sec2 .cards_card1 .wrappscrd h3 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: 16px;
+}
+#page5sec2 .cards_card1 .wrappscrd p {
+  color: var(--Secondary-2, #db4444);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+#page5sec2 .cards_card1 .wrappscrd p .skidka {
+  margin-left: 12px;
+  text-decoration: line-through;
+}
+#page5sec2 .cards_card1 .wrappscrd .imgpwrap {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+#page5sec2 .cards_card1-game {
+  background-color: #f5f5f5;
+  width: 270px;
+  height: 250px;
+  position: relative;
+  border-radius: 9px 9px 0px 0px;
+}
+#page5sec2 .cards_card1-game:hover .btn {
+  display: block;
+  cursor: pointer;
+}
+#page5sec2 .cards_card1-game .btn {
+  position: absolute;
+  width: 270px;
+  height: 41px;
+  background-color: black;
+  color: white;
+  right: 0px;
+  bottom: 0px;
+  border: none;
+  display: none;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+#page5sec2 .cards_card1-game img {
+  margin-left: 40px;
+  margin-top: -50px;
+}
+#page5sec2 .cards_card1-game .foiz {
+  padding: 10px;
+}
+#page5sec2 .cards_card1-game .foyizskidka {
+  background-color: #db4444;
+  padding: 4px 12px;
+  width: 55px;
+  height: 26px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 400;
+  font-family: Poppins;
+  font-size: 12px;
+}
+#page5sec2 .cards_card1-game .foyiNew {
+  background-color: transparent;
+  color: #f5f5f5;
+  padding: 4px 12px;
+}
+#page5sec2 .cards_card1-game .prosmotr {
+  display: block;
+  margin-left: 185px;
+  margin-top: -28px;
+  line-height: 40px;
+}
+#page5sec2 .cards_card1-game .prosmotr .pult {
+  margin-left: 100px;
+  background-color: #db4444;
+}
+
 #page6sec1 {
   margin-top: 225px;
 }
@@ -2397,12 +2821,13 @@ footer #foterborder {
   display: flex;
   gap: 8px;
 }
-#page8sec1 .textstwo p {
+#page8sec1 .textstwo a {
   color: var(--Text2, #000);
   font-size: 14px;
   font-weight: 400;
   line-height: 21px;
   opacity: 0.5;
+  text-decoration: none;
 }
 #page8sec1 .textstwo span {
   color: var(--Text2, #000);

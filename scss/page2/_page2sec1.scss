@@ -4,11 +4,12 @@
 
     .page2_wrap{
         display: flex;
-        gap: 140px;
+        gap: 160px;
 
         .content1wrap{
             width: 805px;
             height: 781px;
+            margin-left: -150px;
         }
 
         .content2wrap{

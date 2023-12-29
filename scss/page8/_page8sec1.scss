@@ -11,12 +11,13 @@
     display: flex;
     gap: 8px;
 
-    p {
+    a {
       color: var(--Text2, #000);
       font-size: 14px;
       font-weight: 400;
       line-height: 21px;
       opacity: 0.5;
+      text-decoration: none;
     }
     span {
       color: var(--Text2, #000);
